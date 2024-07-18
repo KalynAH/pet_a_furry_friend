@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+/* *NavBar */
+.navbar {
+  display: flex;
+  background-color: teal;
+  justify-content: space-between;
+  gap: 40px;
+  height: 100px;
+  border-bottom: black 2px solid;
+}
+
+nav a {
+  color: black;
+  padding: 10px;
+  padding-top: 20px;
+  
+  
+  
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  padding: 15px;
+}
+
+.btn {
+  border-radius: 75px;
+  border-color: blueviolet;
+  background-color: white;
+  color: blueviolet;
+  width: 75px;
+}
+
+.image-title {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.selection {
+  color: white;
+  display: flex;
+  margin-bottom: 30px;
+  margin: 25px;
+}
+
+.location {
+  color: white;
+  display: flex;
+  align-items: center;
+
+  
+}
+.pin {
+  width: 30px;
+}
+
+.paw-pic {
+  width: 30px;
+}
+.purplebtn {
+  margin: 20px;
+  background-color: blueviolet;
+  color: white;
+  box-shadow: black;
+  border-radius: black;
+}
+/* *Animals & Boxes */
+.animal-container {
+  width: 1000px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-right: 40px;
+}
+
+.animal-box {
+  border: lightgray;
+  width: 750px;
+
+  background-color: lightgray;
+  margin-bottom: 20px;
+  border-radius: 35px;
+}
+
+.animal-box img {
+  width: 20%;
+  padding: 10px;
+  display: flex;
+}
+
+.pet1,
+.pet2,
+.pet3 {
+  display: flex;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+  height: 25%;
+  width: 30%;
+  margin: 20px;
+  color: white;
+  background-color: teal;
+  box-shadow: black;
+}
+.name1,
+.name2,
+.name3 {
+  font-size: x-large;
+  font-weight: bolder;
+  margin-top: 10px;
+  text-align: left;
+}
+.description1,
+.description2,
+.description3 {
+  display: flex;
+  margin-top: 40px;
+  text-align: left;
+  margin-right: 50px;
+}
+
+#count,
+#count2,
+#count3 {
+  display: flex;
+  margin-right: 20px;
+  
+}
